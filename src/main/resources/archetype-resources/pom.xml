@@ -7,7 +7,7 @@
   <version>${version}</version>
   <packaging>ear</packaging>
 
-  <name>${artifactId} EAR</name>
+  <name>${artifactId}</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,7 +34,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>${artifactId}</finalName>
   </build>
 
 </project>
